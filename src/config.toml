@@ -1,0 +1,17 @@
+functions = "./"
+view = "image-classification"
+metadata = "./metadata_f.parquet"
+models = ["Stable Diffusion"]
+data_path = "https://diffusiondb.m4ke.org/"
+data_column = "image_name"
+id_column = "image_name"
+label_column = "prompt"
+batch_size = 100000
+calculate_histogram_metrics = false
+port = 7860
+
+host = "0.0.0.0"
+editable = false
+
+# host = "localhost"
+# editable = true

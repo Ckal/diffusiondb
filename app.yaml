@@ -1,0 +1,18 @@
+name: diffusiondb
+type: gradio-space
+sdk: docker
+
+metadata:
+  space_id: Chris4K/diffusiondb
+  original_url: https://huggingface.co/spaces/Chris4K/diffusiondb
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
